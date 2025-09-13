@@ -1,3 +1,82 @@
-body{
-    background-color: cornflowerblue;
+body {
+    background-color: #ffa500;
+    color: #008000; /*Cor: Verde*/
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    width: 1280px;
+    
 }
+div {
+    background-color: #ffc0cb;
+    color: #800080;
+    margin: 200px 200px 200px 200px;
+    width: 1280px;
+    /*margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;*/
+}
+header {
+    background-color: white;
+    color: #000000;
+}
+
+h1 {
+    color: #808080;
+    font-size: 20px; /*Tamanho do texto, pode ser em pixels ou outras medidas*/
+    font-weight: 900; /*Expessura do texto, deve ser sempre múltiplos de 100*/ 
+}
+
+nav {
+    background-color: #00ffff;
+    width: 1200px;
+    height: 70px;
+}
+
+section {
+    background-color: #c1672f;
+    width: 800px;
+    height: 600px;
+    /*display: box;*/
+}
+
+/*#diferentao { # para chamar a ID 'diferentão'
+    color: white;
+}*/
+
+section h1 {
+    color: #ffc0cb;
+}
+
+article {
+    background-color: cornflowerblue;
+    width: 700px;
+    height: 150px;
+}
+
+/*cor-diferente {
+    background-color: mediumslateblue;
+    color: black;
+}*/
+
+aside {
+    background-color:darkgoldenrod;
+    width: 480px;
+    height: 600px;
+    /*float:inherit;*/
+}
+
+footer {
+    background-color: darkslategray;
+}
+
+
+/*header{
+    color: aliceblue;
+}
+section{
+    color: blueviolet;
+}
+.titulo2{
+    color:blue;
+}*/
